@@ -1,5 +1,3 @@
-// Project Developed By @ramakrishnan_16
-
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
@@ -202,5 +200,3 @@ app.get("/api/bid-history", async (req, res) => {
 });
 
 app.listen(5000, () => console.log("Server running on port 5000"));
-
-// Project Developed By @ramakrishnan_16
